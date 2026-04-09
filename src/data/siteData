@@ -1,0 +1,114 @@
+export const SERVICES = [
+  {
+    id: 'credit-card',
+    icon: '💳',
+    title: 'Credit Cards',
+    color: 'from-violet-600 to-indigo-600',
+    lightBg: 'bg-violet-50',
+    border: 'border-violet-200',
+    textColor: 'text-violet-700',
+    desc: 'Cashback, reward & travel cards matched to your spending habits.',
+    features: [
+      'Multiple bank options',
+      'Best cashback & reward cards',
+      'Low / zero annual fee',
+      'Eligibility check & guidance',
+    ],
+  },
+  {
+    id: 'loans',
+    icon: '🏦',
+    title: 'Loan Services',
+    color: 'from-blue-700 to-cyan-600',
+    lightBg: 'bg-blue-50',
+    border: 'border-blue-200',
+    textColor: 'text-blue-700',
+    desc: 'Personal, Home, Business & LAP at the lowest possible interest rates.',
+    features: [
+      'Personal & Business Loans',
+      'Home Loan & Loan Against Property',
+      'Rate comparison across 50+ banks',
+      'Fast processing & documentation',
+    ],
+  },
+  {
+    id: 'insurance',
+    icon: '🛡️',
+    title: 'Insurance Advisory',
+    color: 'from-emerald-600 to-teal-600',
+    lightBg: 'bg-emerald-50',
+    border: 'border-emerald-200',
+    textColor: 'text-emerald-700',
+    desc: 'Life, Health, Term & Business insurance with full claim support.',
+    features: [
+      'Life & Health Insurance',
+      'Term Plans from ₹500/month',
+      'Business Insurance',
+      'Claim guidance support',
+    ],
+  },
+  {
+    id: 'accounts',
+    icon: '🏛️',
+    title: 'Account Opening',
+    color: 'from-amber-500 to-orange-500',
+    lightBg: 'bg-amber-50',
+    border: 'border-amber-200',
+    textColor: 'text-amber-700',
+    desc: 'Zero-balance savings & current accounts with digital KYC in minutes.',
+    features: [
+      'Savings & Current Accounts',
+      'Zero balance account options',
+      'Digital KYC — 100% paperless',
+      'Instant activation support',
+    ],
+  },
+];
+
+export const COMPARE_DATA = {
+  loans: [
+    { bank: 'HDFC Bank', rate: '10.50%', tenure: '5 yr', processing: '1%', tag: 'Lowest Rate' },
+    { bank: 'SBI', rate: '11.00%', tenure: '6 yr', processing: '0%', tag: 'Zero Processing' },
+    { bank: 'ICICI Bank', rate: '10.75%', tenure: '5 yr', processing: '2.5%', tag: null },
+    { bank: 'Axis Bank', rate: '10.49%', tenure: '5 yr', processing: '1.5%', tag: null },
+    { bank: 'Kotak Mahindra', rate: '10.99%', tenure: '5 yr', processing: '1%', tag: null },
+  ],
+  cards: [
+    { bank: 'HDFC Millennia', rate: '5% Cashback', tenure: 'No joining fee', processing: '₹1,000/yr', tag: 'Best Cashback' },
+    { bank: 'SBI SimplyCLICK', rate: '10x Rewards', tenure: 'Free 1st yr', processing: '₹499/yr', tag: null },
+    { bank: 'Axis Flipkart', rate: '5% on Flipkart', tenure: 'Free for life', processing: 'Zero', tag: 'Free For Life' },
+    { bank: 'ICICI Amazon Pay', rate: '5% on Amazon', tenure: 'Free 1st yr', processing: '₹500/yr', tag: null },
+    { bank: 'Kotak 811', rate: '2% Cashback', tenure: 'Lifetime free', processing: 'Zero', tag: null },
+  ],
+  insurance: [
+    { bank: 'LIC Term Plan', rate: '₹1 Cr Cover', tenure: '30 years', processing: '₹750/mo', tag: 'Most Trusted' },
+    { bank: 'HDFC Click2Protect', rate: '₹1 Cr Cover', tenure: '40 years', processing: '₹680/mo', tag: 'Best Price' },
+    { bank: 'Max Life Smart', rate: '₹1 Cr Cover', tenure: '35 years', processing: '₹720/mo', tag: null },
+    { bank: 'Star Health', rate: '₹5L Cover', tenure: 'Annual', processing: '₹6,500/yr', tag: null },
+    { bank: 'Niva Bupa', rate: '₹10L Cover', tenure: 'Annual', processing: '₹11,000/yr', tag: 'Popular' },
+  ],
+};
+
+export const WHY_US = [
+  { icon: '🏦', title: 'All Bank Tie-ups', desc: '50+ banks & NBFCs partnered so you always get the best option, not just what one bank offers.' },
+  { icon: '📊', title: 'Interest Rate Comparison', desc: 'Side-by-side comparison of real rates — no hidden charges, no misleading numbers.' },
+  { icon: '🔍', title: 'Transparent Advisory', desc: 'We tell you the truth about eligibility, rates and risk. No upselling, ever.' },
+  { icon: '👤', title: 'Customer-Centric Approach', desc: 'Your financial profile drives every recommendation. We customize, not cookie-cut.' },
+  { icon: '🤝', title: 'End-to-End Support', desc: 'From application to approval — we stay with you at every step.' },
+  { icon: '⚡', title: 'Fast Processing', desc: 'We cut through the paperwork and help you get approved faster than going alone.' },
+];
+
+export const STEPS = [
+  { step: '01', title: 'Share Your Profile', desc: 'Tell us your financial need, income range and preferred product. Takes 2 minutes.' },
+  { step: '02', title: 'We Compare for You', desc: 'Our experts analyse 50+ options and shortlist the best 3 for your profile.' },
+  { step: '03', title: 'Apply & Get Approved', desc: 'We guide you through the application, docs and follow up till approval.' },
+];
+
+export const TESTIMONIALS = [
+  { name: 'Rahul Sharma', city: 'Delhi', service: 'Personal Loan', rating: 5, text: 'Got a personal loan at 10.5% within 3 days. Credarth saved me ₹18,000 in interest vs what my own bank was offering!' },
+  { name: 'Priya Mehta', city: 'Mumbai', service: 'Credit Card', rating: 5, text: 'They helped me choose the perfect cashback card. Got approved in 2 days and already earned ₹3,200 cashback.' },
+  { name: 'Vikram Patel', city: 'Ahmedabad', service: 'Home Loan', rating: 5, text: 'Home loan process was made so smooth. They negotiated a rate of 8.45% when I was quoted 9.1% directly by the bank.' },
+  { name: 'Sneha Rao', city: 'Bangalore', service: 'Insurance', rating: 5, text: 'Term plan advisory was excellent. Got ₹1 Cr cover at just ₹680/month. Complete peace of mind now.' },
+  { name: 'Amit Kumar', city: 'Patna', service: 'Business Loan', rating: 5, text: 'Business loan of ₹25 lakhs processed in a week. The team handled everything end-to-end. Highly recommended!' },
+  { name: 'Meera Singh', city: 'Lucknow', service: 'Account Opening', rating: 5, text: 'Zero balance account opened digitally in 20 minutes. No branch visit needed. Super convenient!' },
+];
