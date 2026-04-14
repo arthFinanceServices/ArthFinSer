@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/admin/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/:path*"
+      "destination": "https://arth-fin-ser-admin.vercel.app/admin:path*"
     },
     {
       "source": "/employee/:path*",
