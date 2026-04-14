@@ -2,23 +2,23 @@
   "rewrites": [
     {
       "source": "/admin/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/admin/:path*"
+      "destination": "https://arth-fin-ser-admin.vercel.app/"
     },
     {
       "source": "/employee/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/employee/:path*"
+      "destination": "https://arth-fin-ser-admin.vercel.app/"
     },
     {
       "source": "/employee-dashboard/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/employee-dashboard/:path*"
+      "destination": "https://arth-fin-ser-admin.vercel.app/"
     },
     {
       "source": "/employeeDetails/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/employeeDetails/:path*"
+      "destination": "https://arth-fin-ser-admin.vercel.app/"
     },
     {
       "source": "/dealer-status/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/dealer-status/:path*"
+      "destination": "https://arth-fin-ser-admin.vercel.app/"
     }
   ]
 }
