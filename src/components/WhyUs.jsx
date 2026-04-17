@@ -3,7 +3,7 @@ import { WHY_US } from '../data/siteData';
 
 export default function WhyUs() {
   return (
-    <section id="why-us" className="py-24 b bg-blue-900   00 relative overflow-hidden">
+    <section id="why-us" className="py-24 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10"
         style={{
@@ -18,7 +18,7 @@ export default function WhyUs() {
         {/* Header */}
         <div className="text-center mb-14">
           <span className="inline-block bg-white/10 text-white/80 text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full mb-4 border border-white/20">
-            Why Credarth?
+            Why Arth Finance Services?
           </span>
           <h2 className="text-4xl font-black text-white mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
             We Don't Just Sell —{' '}
@@ -55,7 +55,7 @@ export default function WhyUs() {
             "Right Financial Product at the Right Interest Rate."
           </p>
           <p className="text-blue-200 text-sm max-w-lg mx-auto leading-relaxed">
-            Credarth Finance Service is a trusted platform helping customers choose the best financial products — low interest, maximum benefits, safe options — by partnering with multiple banks and NBFCs.
+            Arth Finance Services Finance Service is a trusted platform helping customers choose the best financial products — low interest, maximum benefits, safe options — by partnering with multiple banks and NBFCs.
           </p>
         </div>
       </div>
