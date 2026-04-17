@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../assets/logo-nav.jpg'
 const FOOTER_LINKS = {
   Services: ['Credit Cards', 'Personal Loan', 'Home Loan', 'Business Loan', 'Insurance', 'Account Opening'],
   Company: ['About Us', 'Our Advisors', 'Careers', 'Blog', 'Press'],
@@ -14,9 +15,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-600 to-blue-400 flex items-center justify-center text-white font-black text-lg">C</div>
+              <div className="w-9 h-9 rounded-xl flex items-center justify-center text-white font-black text-lg">
+                <img src={logo} className="rounded"/>
+              </div>
               <div>
-                <p className="font-black text-white text-base" style={{ fontFamily: 'Syne, sans-serif' }}>Credarth</p>
+                <p className="font-black text-white text-base" style={{ fontFamily: 'Syne, sans-serif' }}>Arth</p>
                 <p className="text-[10px] text-slate-500">Finance Service</p>
               </div>
             </div>
@@ -72,7 +75,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-        <p className="text-xs text-slate-500">© 2025 Credarth Finance Service. All rights reserved.</p>
+        <p className="text-xs text-slate-500">© 2025 Arth Finance Service. All rights reserved.</p>
         <div className="flex items-center gap-4 text-xs text-slate-500">
           <span>🔒 SSL Secured</span>
           <span>·</span>
