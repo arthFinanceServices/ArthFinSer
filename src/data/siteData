@@ -105,7 +105,7 @@ export const STEPS = [
 ];
 
 export const TESTIMONIALS = [
-  { name: 'Rahul Sharma', city: 'Delhi', service: 'Personal Loan', rating: 5, text: 'Got a personal loan at 10.5% within 3 days. Credarth saved me ₹18,000 in interest vs what my own bank was offering!' },
+  { name: 'Rahul Sharma', city: 'Delhi', service: 'Personal Loan', rating: 5, text: 'Got a personal loan at 10.5% within 3 days. Arth Finance Services saved me ₹18,000 in interest vs what my own bank was offering!' },
   { name: 'Priya Mehta', city: 'Mumbai', service: 'Credit Card', rating: 5, text: 'They helped me choose the perfect cashback card. Got approved in 2 days and already earned ₹3,200 cashback.' },
   { name: 'Vikram Patel', city: 'Ahmedabad', service: 'Home Loan', rating: 5, text: 'Home loan process was made so smooth. They negotiated a rate of 8.45% when I was quoted 9.1% directly by the bank.' },
   { name: 'Sneha Rao', city: 'Bangalore', service: 'Insurance', rating: 5, text: 'Term plan advisory was excellent. Got ₹1 Cr cover at just ₹680/month. Complete peace of mind now.' },
