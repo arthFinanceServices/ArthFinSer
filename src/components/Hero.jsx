@@ -118,7 +118,7 @@ export default function Hero() {
               <div className="w-16 h-1.5 bg-slate-200 rounded-full mx-auto mt-3 mb-0" />
               {/* Header */}
               <div className="px-5 pt-4 pb-3 border-b border-slate-100">
-                <p className="font-black text-blue-700 text-base" style={{ fontFamily: 'Syne, sans-serif' }}>Credarth</p>
+                <p className="font-black text-blue-700 text-base" style={{ fontFamily: 'Syne, sans-serif' }}>Arth Finance Services</p>
                 <p className="text-[10px] text-slate-400">Live Best Rates</p>
               </div>
               {/* Rates */}
