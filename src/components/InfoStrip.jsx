@@ -79,7 +79,7 @@ export default function InfoStrip() {
                 <svg className="w-3 h-3 fill-white" viewBox="0 0 20 20"><path d="M2 5a2 2 0 012-2h12a2 2 0 012 2v7a2 2 0 01-2 2H6l-4 4V5z"/></svg>
               </div>
               <span className="text-blue-700 text-xs font-black tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
-                ask credarth
+                ask arthfinanceservices
               </span>
             </div>
             <p className="text-slate-900 font-black text-sm leading-tight">
