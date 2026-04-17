@@ -49,7 +49,7 @@ export default function InfoStrip() {
           </div>
         </div>
 
-        {/* ── Card 2: Ask Credarth (like Ask PB) ─────────────── */}
+        {/* ── Card 2: Ask Arth Finance Services (like Ask PB) ─────────────── */}
         <div className="bg-gradient-to-br from-[#eef3fb] to-[#dbeafe] rounded-2xl border border-blue-200 flex items-center gap-4 px-5 py-4 shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer group">
           {/* Illustration */}
           <div className="flex-shrink-0">
