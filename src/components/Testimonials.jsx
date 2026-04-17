@@ -21,7 +21,7 @@ export default function Testimonials() {
             <span className="text-blue-700">Thousands</span>
           </h2>
           <p className="text-slate-500 max-w-md mx-auto text-base">
-            Real customers, real savings. See what people are saying about Credarth.
+            Real customers, real savings. See what people are saying about Arth Finance Services.
           </p>
         </div>
 
