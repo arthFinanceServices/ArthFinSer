@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { label: 'Compare', href: '#compare' },
   { label: 'Why Us', href: '#why-us' },
   { label: 'Contact', href: '#contact' },
+  { label: 'Partner', href : '/partner'}
 ];
 
 export default function Navbar() {
