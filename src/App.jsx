@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import PartnerPage from "./partners/PartnerPage";
-import ErrorBoundary from "./components/ErrorBoundary";
+// import ErrorBoundary from "./components/ErrorBoundary";
 
 export default function App() {
   return (
