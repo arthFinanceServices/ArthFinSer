@@ -1,24 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/admin/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/admin:path*"
-    },
-    {
-      "source": "/employee/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/:path*"
-    },
-    {
-      "source": "/employee-dashboard/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/:path*"
-    },
-    {
-      "source": "/employeeDetails/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/:path*"
-    },
-    {
-      "source": "/dealer-status/:path*",
-      "destination": "https://arth-fin-ser-admin.vercel.app/:path*"
-    }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
