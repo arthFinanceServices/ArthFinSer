@@ -62,7 +62,7 @@ export default function Navbar() {
             href="tel:+919999999999"
             className="text-xs font-bold text-blue-700 border border-blue-200 rounded-full px-4 py-2 hover:bg-blue-50 transition"
           >
-            📞 99999 99999
+            📞 +91 77658 80213
           </a>
           <a
             href="#contact"
